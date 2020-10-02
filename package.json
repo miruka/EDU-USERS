@@ -1,0 +1,25 @@
+{
+  "name": "edu-users",
+  "version": "1.0.0",
+  "description": "API for Education User Management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miruka/EDU-USERS.git"
+  },
+  "author": "Christopher Miruka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miruka/EDU-USERS/issues"
+  },
+  "homepage": "https://github.com/miruka/EDU-USERS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "shortid": "^2.2.15",
+    "uuid": "^8.3.0"
+  }
+}
